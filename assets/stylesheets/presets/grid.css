@@ -1,0 +1,74 @@
+
+
+
+
+
+body {
+   background: url("../../img/sideback2.gif") 0 0 repeat-y;
+   min-height: 100vh;
+}
+
+
+.mood {
+   width: 281px;
+   /*height: 165px;*/
+
+   position: absolute;
+   top: 30px;
+}
+
+
+
+.container, aside {
+   display: inline-block;
+
+   vertical-align: top;
+}
+
+.container {
+   width: 60%;
+   min-height: 100vh;
+
+   margin-top: 150px;
+   margin-left: 2.2%;
+   /*margin-left: 29px;*/
+
+   /*background-color: #FDFED6;*/
+   text-align: justify;
+}
+
+aside {
+   /*width: 19.5%;*/
+   width: 250px;
+}
+
+
+nav.on-top {
+   position: absolute;
+
+   top: 245px;
+   left: 20px;
+   /*margin-top: 245px;*/
+   /*margin-top: 80px;*/
+   /*margin-left: 20px;*/
+}
+
+nav.scrolled {
+   position: fixed;
+
+   top: 15px;
+}
+
+
+.aside-footer {
+
+   /*position: relative;*/
+   /*top: 20px;*/
+   /*top: 350px; */
+   /*top: 330.6px; */
+   
+   margin-top: 350.6px;
+   /*margin-top: 20px;*/
+   
+   text-align: center;
+}

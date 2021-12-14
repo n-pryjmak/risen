@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset='UTF-8'>
+   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+   <title>Nazar Pryjmak</title>
+   <meta name='description' content='description'>
+
+   <link rel='stylesheet' href='assets/stylesheets/reset.css'>
+   <link rel='stylesheet' href='assets/stylesheets/typography.css'>
+
+
+   <link rel='stylesheet' href='assets/stylesheets/_grid.css'>
+   <link rel='stylesheet' href='assets/stylesheets/mobileGrid.css' media="(max-width: 625px)">
+   <link rel='stylesheet' href='assets/stylesheets/desktopGrid.css' media="(min-width: 625px)">
+
+<style>
+   
+nav > a[href="index.html"] {
+   display: inline;
+}
+
+h1 {
+   margin: 0;
+   text-align: center;
+   /*vertical-align: bottom;*/
+}
+
+.burger {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   border: 1px solid black;
+}   
+
+.primary-nav-box {
+   background-color: hsl(54, 100%, 95%);
+   
+   position: absolute;
+
+   top: 40px;
+   left: 0; right: 0;
+
+   padding: 5px 0;
+}
+.nav {
+   /*display: inline-block;*/
+   margin-left: 20px;
+}
+
+
+</style>
+
+   <script async src='assets/js/desktop.js'></script>
+   <script async src='assets/js/mobile.js'></script>
+</head>
+
+<body>
+
+<aside id='aside'>
+   <a hidden id='top' href='index.html'>
+      <img  class='mood'
+            width="282" 
+            src='img/ccnut.gif'>
+   </a>
+
+   <div style="min-height: 40px;">
+       <div class="burger"></div><h1>W E L C O M E</h1>
+   </div> 
+
+   <div hidden class="primary-nav-box">
+      
+      <nav class="nav">
+         <a hidden href='index.html'>Home</a><br>
+         <a href='articles.html'>Articles</a><br>
+         <a href='about.html'>About Nazar Pryjmak</a><br>
+         <a href='contact.html'>Contact</a><br>
+      </nav>
+
+      <footer class='aside-footer'>
+         <small>&copy; 2021 Nazar Pryjmak<br> All Rights Reserved<br></small>
+      </footer>
+   </div>
+   
+</aside><!-- 
+
+ --><section class='container'>
+
+
+
+   <article class='post'> 
+
+      <p>Although we removed the page for ordering books several months ago, there's still a backlog of orders, so there can be a very long delay, but the orders are still being filled.<br></p>
+      <!-- <hr size=1> -->
+      <br>
+      <p>This website currently reports on my research in aging, nutrition, and hormones. You will find this information in the <a href='http://raypeat.com/articles/'><u>ARTICLES</u></a> section.</p>
+
+      <p>A variety of health problems are examined (eg., infertility, epilepsy, dementia, diabetes, premenstrual syndrome, arthritis, menopause), and the therapeutic uses of progesterone, pregnenolone, thyroid, and coconut oil are frequently discussed.</p>
+
+      <p>My approach gives priority to environmental influences on development, regenerative processes, and an evolutionary perspective. When biophysics, biochemistry, and physiology are worked into a comprehensive view of the organism, it appears that the degenerative processes are caused by defects in our environment.</p>
+
+      <p>As a supplement to this web site, I've also included examples of my artwork, specifically some of my paintings, which you will find in the <a href='http://raypeat.com/art/'><u>ART GALLERY</u></a>. As I've discussed in my books, I see painting as an essential part of grasping the world scientifically. For a few years, I taught art and painted portraits. I have shown my work in both the US and Mexico.</p>
+
+      <p>BACKGROUND</p>
+
+      <p>Concerning my background, I have a Ph.D. in Biology from the University of Oregon, with specialization in physiology. The schools I have taught at include: the University of Oregon, Urbana College, Montana State University, National College of Naturopathic Medicine, Universidad Veracruzana, the Universidad Autonoma del Estado de Mexico, and Blake College. I also conduct private nutritional counseling.</p>
+
+      <p>I started my work with progesterone and related hormones in 1968. In papers in Physiological Chemistry and Physics (1971 and 1972) and in my dissertation (University of Oregon, 1972), I outlined my ideas regarding progesterone, and the hormones closely related to it, as protectors of the body's structure and energy against the harmful effects of estrogen, radiation, stress, and lack of oxygen.</p>
+
+      <p>The key idea was that energy and structure are interdependent, at every level.</p>
+
+      <p>Since then, I have been working on both practical and theoretical aspects of this view. I think only a new perspective on the nature of living matter will make it possible to properly take advantage of the multitude of practical and therapeutic effects of the various life-supporting substances--pregnenolone, progesterone, thyroid hormone, and coconut oil in particular.</p>
+
+      <p>"Marketing" of these as products, without understanding just what they do and why they do it, seems to be adding confusion, rather than understanding, as hundreds of people sell their misconceptions with their products. The very concept of "marketing" is at odds with the real nature of these materials, which has to do with the protection and expansion of our nature and potential. A distorted idea of human nature is sold when people are treated as "the market".</p>
+
+      <p>It seems that all of the problems of development and degeneration can be alleviated by the appropriate use of the energy-protective materials. When we realize that our human nature is problematic, we can begin to explore our best potentials.</p>
+
+      <p>----Ray Peat</p>
+
+      <a href='#top'>To the top of the page</a>
+
+   </article>
+</section>
+
+<script>
+(function() { if (window.matchMedia('(min-width: 625px)').matches) {   
+
+   document.querySelector('.primary-nav-box').hidden = false;
+   document.getElementById('aside').style.minHeight = document.body.offsetHeight + 'px';
+
+}}());
+</script>
+
+</body>
+</html>

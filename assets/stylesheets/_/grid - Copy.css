@@ -1,0 +1,92 @@
+/*@media ( min-width: 675px ) {*/
+
+
+
+body {
+   /*background: url("../../img/sideback2.gif") 0 0 repeat-y;*/
+   min-height: 100vh;
+}
+
+
+.mood {
+   position: absolute;
+   top: 30px;
+
+   width: 281px;
+   /*height: 165px;*/
+}
+
+nav {
+   left: 20px;
+
+   position: absolute;
+   top: 245px;
+}
+nav.scrolled {
+   position: fixed;
+   top: 15px;
+}
+
+
+
+.container, aside {
+   display: inline-block;
+      vertical-align: top;
+}
+
+.container {
+   background-color: hsl( 54, 100%, 95%);
+   
+   margin-top: 150px;
+
+   /*margin-left: 29px;*/
+   margin-left: 2.2%;
+   width: 60%;
+      min-height: 100vh;
+
+   text-align: justify;
+}
+
+aside {
+   background-color: hsl( 200, 100%, 95%);
+
+   width: 37.8%;
+      max-width: 250px;
+}
+.aside-footer {
+   margin-top: 350.6px;
+   
+   text-align: center;
+}
+
+
+/*<style>
+      body {
+         background: url("../../img/sideback2.gif") 0 0 repeat-y;
+         min-height: 100vh;}
+      .mood {
+         width: 281px;
+         position: absolute;
+         top: 30px;}
+      .container, aside {
+         display: inline-block;
+         vertical-align: top;}
+      .container {
+         width: 60%;
+         min-height: 100vh;
+         margin-top: 150px;
+         margin-left: 2.2%;
+         text-align: justify;}
+      aside {
+         width: 250px;}
+      nav.on-top {
+         position: absolute;
+         top: 245px;
+         left: 20px;}
+      nav.scrolled {
+         position: fixed;
+         top: 15px;}
+      .aside-footer {
+         margin-top: 350.6px;
+         text-align: center;}
+</style>*/

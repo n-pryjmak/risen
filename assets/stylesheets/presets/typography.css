@@ -1,0 +1,116 @@
+   /*font-family: serif;*/
+   /*font-family: times new roman;*/
+   /*font-family: "Times New Roman";*/
+   /*font-family: times;*/
+   /*font-family: palatino;*/
+   /*font-family: ITC garamond;*/
+   /*font-family: garamond;*/
+   /*font-family: georgia;*/
+
+
+
+   /*font-family: sans-serif;*/
+   /*font-family: Arial;*/
+   /*font-family: Helvetica;*/
+   /*font-family: "Helvetica Neue";*/
+   /*font-family: "Open Sans";*/
+   /*color: #888;*/
+   /*font-weight: 300;*/
+   /*line-height: 22px;*/
+
+
+/* ========= VARIABLES =========
+
+#11640D; /* $links */
+
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+body {
+   color: black;
+   font: normal 16px/130% georgia, times new roman, serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+   margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, footer {
+   color: #728472;
+   color: #648880;
+}
+
+h1 {
+   font-weight: bold;
+   font-size: 20px;
+   /*line-height: 44px;*/
+}
+
+.aside-footer {
+   font-size: 11px;
+   line-height: 100%;
+   /*color: black;*/
+}
+
+
+
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+
+
+a:link {
+   font-weight: bold;
+   line-height: 120%;
+
+   color: #11640D; /* $links */
+   text-decoration: none;
+}
+/*a:visited {}*/
+a:hover {
+   font-weight:bold;
+   line-height:120%;
+   
+   color: black;
+   text-decoration: underline;
+}
+
+
+
+nav a:link {
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 120%;
+
+   text-transform: uppercase;
+   
+   color: #11640D; /* $links */
+   text-decoration: none;
+}
+/*nav a:visited {}*/
+nav a:hover {
+   font-weight:normal;
+   font-size: 18px;
+   line-height:120%;
+
+   text-transform:uppercase;
+   
+   color: black;
+   text-decoration: underline;
+}
+
+
+
+a[href="index.html"] {
+   /*background-color: green;*/
+
+}

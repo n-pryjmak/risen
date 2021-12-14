@@ -1,0 +1,130 @@
+/*@media ( min-width: 675px ) {*/
+.burger-box { display: none; }
+
+
+
+  
+
+
+body {
+   min-height: 100vh;
+}
+
+.mood {
+   /*position: absolute;*/
+   /*top: 30px;*/
+   margin-top: 30px;
+
+   width: 115%;
+   /*width: 282px;*/
+   /*height: 165px;*/
+}
+
+.primary-nav-box {
+   /*margin: 5px 0 0 20px;*/
+   position: absolute;
+   left: 20px;
+   top: 246px;
+}
+.scrolled {
+   position: fixed;
+
+   top: 15px;
+}
+nav > a[href='index.html'] {
+    /*? font-style: underline;*/
+}
+
+
+
+.container, #aside {
+   display: inline-block;
+      vertical-align: top;
+}
+
+.container {
+   position: relative;
+   z-index: 1;
+   /*background-color: hsl(54, 100%, 95%);*/
+   
+   /*margin-top: 150px;*/
+   margin-top: 20.6vh;
+   /*padding: 1%;*/
+   width: 60%;
+      min-height: 100vh;
+
+   text-align: justify;
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   .container {
+      width: 70.0%;
+   }
+}
+@media screen and (min-width: 1441px) {
+   .container {
+      width: 50.0%;
+   }
+}
+#aside {
+   /*position: relative;*/
+
+   /*background: url("../img/sideback2.gif") 0/0 repeat-y;*/
+   /*background-size: 2000px 20px;*/
+      /*max-width: 250px;*/
+   /*margin-right: 29px;*/
+   /*margin-right: 1.9%;*/
+
+   background-color: #F6F6F6;
+   box-shadow: 3px 0 3px #F6F6F6;
+
+   width: 25%;
+      max-width: 246px;
+
+   margin-right: 2.15%;
+}
+
+.footer {
+   /*margin-top: 350.6px;*/
+   /*margin-top: 10px;*/
+   /*text-align: center;*/
+
+
+   margin-bottom: 5px;
+   text-align: right;
+}
+
+
+/*<style>
+      body {
+         background: url("../../img/sideback2.gif") 0 0 repeat-y;
+         min-height: 100vh;}
+      .mood {
+         width: 281px;
+         position: absolute;
+         top: 30px;}
+      .container, aside {
+         display: inline-block;
+         vertical-align: top;}
+      .container {
+         width: 60%;
+         min-height: 100vh;
+         margin-top: 150px;
+         margin-left: 2.2%;
+         text-align: justify;}
+      aside {
+         width: 250px;}
+      nav.on-top {
+         position: absolute;
+         top: 245px;
+         left: 20px;}
+      nav.scrolled {
+         position: fixed;
+         top: 15px;}
+      .aside-footer {
+         margin-top: 350.6px;
+         text-align: center;}
+</style>
+
+   /*background-color: hsl( 200, 100%, 95%);*/
+   /*background-color: hsl( 119, 20%, 97%);*/
