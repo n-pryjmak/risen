@@ -1,22 +1,71 @@
-body {
-   /*margin-bottom: 0;*/
+
+
+
+div.paper-effect-top,
+div.paper-effect-bottom {
+   position: fixed;
+   top: 0; bottom: 0;
+   left: 0; right: 0;
+
+   /*border-radius: 1px;*/
 }
 
-h1 {
-   text-align: center;
+@media (min-width: 426px) and (max-width: 768px) {
+   div.paper-effect-top,
+   div.paper-effect-bottom {
+      /*left: 17.85%;*/
+      left: 8%; right: 8%;
+   }
 }
+
+div.paper-effect-top {
+   z-index: -1;
+
+   box-shadow: inset 0 32px 20px -30px #000, inset 0 -32px 20px -30px #000;
+}
+
+div.paper-effect-bottom {
+   z-index: -2;
+
+   background-color: hsl(44, 100%, 95%);
+
+   border-left-width: 1px;
+   border-left-color: hsl(44, 100%, 90%);
+   border-left-style: solid;
+   border-right-width: 1px;
+   border-right-color: hsl(44, 100%, 90%);
+   border-right-style: solid;
+}
+
+
+
+
+
+
+/*br {
+   display: none;
+}*/
+
+
+
+.m-hidden {
+   display: none !important;
+}
+
 
 
 
 #aside {
 
 }
-#aside > a[href='index.html'] { display: none; }
+
+
 .mood {
    /*vertical-align: top;*/
    /*margin: 5px 0 0 5px;*/
    /*height: 48px;*/
 }
+
 .autor {
    position: relative;
    z-index: 1;
@@ -24,6 +73,7 @@ h1 {
    margin: 5px 0 0 5px;
    height: 70px;
 }
+
 .burger {
    position: relative;
    z-index: 1;
@@ -43,39 +93,41 @@ h1 {
    
 }   
 .primary-nav-box {
-   background-color: hsl(54, 100%, 95%, 0.95);
-   position: absolute;
+   background-color: hsl(219, 80%, 95%, 0.95);
+   position: fixed;
 
    left: 0; right: 0;
-   top: 0;
-   height: 150vh;
+   top: 0; bottom: 0;
 }
-.hidden {
-   display: none;
-}
+
 .nav {
    margin-top: 35vh;
 }
 
 .nav > a {
-   display: inline-block;
 
    text-align: center;
-   width: 100%;
 
-   padding: 2px 0;
+   line-height: 145% !important;
+   /*padding: 2px 0;*/
 }
 
 .container {
    padding: 1%;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
    h1 {
       text-align: left;
    }
 
    .container {
       padding-left: 20%;
+      padding-left: 2.15%;
+
+      /*margin-left: 17.85%;*/
+      margin-left: 8%;
+      margin-right: 8%;
+
       /*padding-right: 5%;*/
    }
 
@@ -93,3 +145,18 @@ h1 {
 }
 
 
+
+
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+
+
+h1 {
+   text-align: center;
+}

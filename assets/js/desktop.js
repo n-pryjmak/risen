@@ -8,23 +8,30 @@
 
 
 
-let navBox = document.querySelector('.primary-nav-box');
-let homeLink = document.querySelector('.nav').firstElementChild;
+// let navBox = document.querySelector('.primary-nav-box');
+let nav = document.querySelector('.nav');
+let homeLink = nav.firstElementChild;
 
 
 
 window.on('scroll', function() {
 
-   if (window.scrollY > 228 && homeLink.hidden) {
-      homeLink.hidden = false; navBox.classList.toggle('scrolled');
+   if ( window.scrollY >  210 && homeLink.classList.contains('d-hidden') ) {
+      homeLink.classList.remove('d-hidden');
+      nav.classList.remove('margin-top');
 
-      // console.log('class "scroled" has been ADDED to navigation');
+      // navBox.classList.toggle('scrolled');
+
+      console.log('HOME link has been ADDED to navigation');
    }
    else
-   if (window.scrollY <= 228 && !homeLink.hidden) {
-      homeLink.hidden = true; navBox.classList.toggle('scrolled');
+   if ( window.scrollY <= 210 && !homeLink.classList.contains('d-hidden') ) {
+      homeLink.classList.add('d-hidden');
+      nav.classList.add('margin-top');
+
+      // navBox.classList.toggle('scrolled');
       
-      // console.log('class "scroled" has been REMOVED from navigation');
+      console.log('HOME link has been REMOVED from navigation');
    }
 
 });
